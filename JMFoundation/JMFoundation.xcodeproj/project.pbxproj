@@ -15,11 +15,11 @@
 		74998D08221E8FB000A59531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D07221E8FB000A59531 /* main.m */; };
 		74998D12221E8FB000A59531 /* JMFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D11221E8FB000A59531 /* JMFoundationTests.m */; };
 		74998D1D221E8FB000A59531 /* JMFoundationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D1C221E8FB000A59531 /* JMFoundationUITests.m */; };
-		74998D98221F91B200A59531 /* JMFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D97221F91B200A59531 /* JMFDevice.m */; };
-		74998D9B221F934300A59531 /* JMFProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D9A221F934300A59531 /* JMFProxy.m */; };
 		74998D9F221F937000A59531 /* JMFPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D9D221F937000A59531 /* JMFPopController.m */; };
 		74998DA0221F937000A59531 /* JMFPopController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74998D9E221F937000A59531 /* JMFPopController.xib */; };
-		74998DA5221FD5E700A59531 /* JMFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DA4221FD5E700A59531 /* JMFTimer.m */; };
+		74998DAE221FE89E00A59531 /* JMFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DAA221FE89E00A59531 /* JMFTimer.m */; };
+		74998DAF221FE89E00A59531 /* JMFProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DAC221FE89E00A59531 /* JMFProxy.m */; };
+		74998DB0221FE89E00A59531 /* JMFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DAD221FE89E00A59531 /* JMFDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,16 +56,16 @@
 		74998D18221E8FB000A59531 /* JMFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74998D1C221E8FB000A59531 /* JMFoundationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMFoundationUITests.m; sourceTree = "<group>"; };
 		74998D1E221E8FB000A59531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74998D96221F91B200A59531 /* JMFDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFDevice.h; sourceTree = "<group>"; };
-		74998D97221F91B200A59531 /* JMFDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMFDevice.m; sourceTree = "<group>"; };
-		74998D99221F934300A59531 /* JMFProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFProxy.h; sourceTree = "<group>"; };
-		74998D9A221F934300A59531 /* JMFProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMFProxy.m; sourceTree = "<group>"; };
 		74998D9C221F937000A59531 /* JMFPopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFPopController.h; sourceTree = "<group>"; };
 		74998D9D221F937000A59531 /* JMFPopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMFPopController.m; sourceTree = "<group>"; };
 		74998D9E221F937000A59531 /* JMFPopController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JMFPopController.xib; sourceTree = "<group>"; };
-		74998DA1221F93DB00A59531 /* JMFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFoundation.h; sourceTree = "<group>"; };
-		74998DA3221FD5E700A59531 /* JMFTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFTimer.h; sourceTree = "<group>"; };
-		74998DA4221FD5E700A59531 /* JMFTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMFTimer.m; sourceTree = "<group>"; };
+		74998DA7221FE89E00A59531 /* JMFProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFProxy.h; sourceTree = "<group>"; };
+		74998DA8221FE89E00A59531 /* JMFTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFTimer.h; sourceTree = "<group>"; };
+		74998DA9221FE89E00A59531 /* JMFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFDevice.h; sourceTree = "<group>"; };
+		74998DAA221FE89E00A59531 /* JMFTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFTimer.m; sourceTree = "<group>"; };
+		74998DAB221FE89E00A59531 /* JMFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFoundation.h; sourceTree = "<group>"; };
+		74998DAC221FE89E00A59531 /* JMFProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFProxy.m; sourceTree = "<group>"; };
+		74998DAD221FE89E00A59531 /* JMFDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 		74998CF7221E8FAF00A59531 /* JMFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				74998D95221F8FD200A59531 /* Code */,
+				74998DA6221FE89E00A59531 /* SDK */,
 				74998CF8221E8FAF00A59531 /* AppDelegate.h */,
 				74998CF9221E8FAF00A59531 /* AppDelegate.m */,
 				74998CFB221E8FAF00A59531 /* ViewController.h */,
@@ -151,18 +151,19 @@
 			path = JMFoundationUITests;
 			sourceTree = "<group>";
 		};
-		74998D95221F8FD200A59531 /* Code */ = {
+		74998DA6221FE89E00A59531 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				74998DA1221F93DB00A59531 /* JMFoundation.h */,
-				74998D96221F91B200A59531 /* JMFDevice.h */,
-				74998D97221F91B200A59531 /* JMFDevice.m */,
-				74998D99221F934300A59531 /* JMFProxy.h */,
-				74998D9A221F934300A59531 /* JMFProxy.m */,
-				74998DA3221FD5E700A59531 /* JMFTimer.h */,
-				74998DA4221FD5E700A59531 /* JMFTimer.m */,
+				74998DA7221FE89E00A59531 /* JMFProxy.h */,
+				74998DA8221FE89E00A59531 /* JMFTimer.h */,
+				74998DA9221FE89E00A59531 /* JMFDevice.h */,
+				74998DAA221FE89E00A59531 /* JMFTimer.m */,
+				74998DAB221FE89E00A59531 /* JMFoundation.h */,
+				74998DAC221FE89E00A59531 /* JMFProxy.m */,
+				74998DAD221FE89E00A59531 /* JMFDevice.m */,
 			);
-			path = Code;
+			name = SDK;
+			path = ../../SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,13 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74998D9B221F934300A59531 /* JMFProxy.m in Sources */,
+				74998DB0221FE89E00A59531 /* JMFDevice.m in Sources */,
+				74998DAE221FE89E00A59531 /* JMFTimer.m in Sources */,
 				74998D9F221F937000A59531 /* JMFPopController.m in Sources */,
-				74998DA5221FD5E700A59531 /* JMFTimer.m in Sources */,
+				74998DAF221FE89E00A59531 /* JMFProxy.m in Sources */,
 				74998CFD221E8FAF00A59531 /* ViewController.m in Sources */,
 				74998D08221E8FB000A59531 /* main.m in Sources */,
 				74998CFA221E8FAF00A59531 /* AppDelegate.m in Sources */,
-				74998D98221F91B200A59531 /* JMFDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

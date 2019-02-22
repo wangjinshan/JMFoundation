@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "1096452045" => "1096452045@qq.com" }
   s.source       = { :git => "https://github.com/wangjinshan/JMFoundation.git", :tag => "#{s.version}" }
 
-  s.source_files  = "JMFoundation/JMFoundation/Code/*.{h,m}"
+  s.source_files  = "SDK/*.{h,m}"
   
 
 end
