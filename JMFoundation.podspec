@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "JMFoundation"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "积木仓库"
   s.description  = 'This is JMCode for develope app'
   s.ios.deployment_target = "8.0"
